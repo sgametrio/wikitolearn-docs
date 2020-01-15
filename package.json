@@ -12,7 +12,7 @@
   "devDependencies": {},
   "scripts": {
     "export": "vuepress build docs",
-    "deploy": "npm run export && surge docs/.vuepress/dist",
+    "deploy": "npm run export && surge docs/.vuepress/dist --domain https://wikitolearn-docs.surge.sh",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
