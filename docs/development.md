@@ -33,6 +33,8 @@ If it's the first time you are here, you have to execute the steps below in this
 1. Build
 2. Run
 3. (do it once) Create dummy dataset/Restore a dump
+4. Run (again, to get the services up is something went wrong)
+5. Open [http://localhost:13000] to see the frontend
 
 ### Build
 To build the services you have to run:
@@ -59,7 +61,7 @@ A `dump_url` must be set within `config/config.yml` file and the services have t
 
 If you don't need (or don't have) real data, to get started you have to create fake (placeholder) data with:
 ``` bash
-wtl-dummy-dataset
+$ wtl-dummy-dataset
 ```
 ::: tip
 Fake users and passwords are printed to the console. Take note if you want to login.
