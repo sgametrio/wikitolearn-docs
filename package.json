@@ -12,6 +12,7 @@
   "devDependencies": {},
   "scripts": {
     "export": "vuepress build docs",
+    "deploy": "npm run export && surge docs/.vuepress/dist",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {

@@ -13,7 +13,7 @@ To start the live server and start navigating through the pages:
 npm install  # install dependencies
 npx vuepress dev
 ```
-Enjoy on [](http://localhost:8080)
+Enjoy on [localhost:8080](http://localhost:8080)
 
 ## Read me online
-If you want to explore it online, here you are: [](https://sgametrio.github.io/wikitolearn-docs/)
+If you want to explore it online, here you are: [WikiToLearn Docs](http://wikitolearn-docs.surge.sh)
