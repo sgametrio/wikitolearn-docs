@@ -1,0 +1,31 @@
+{
+  "name": "wikitolearn-docs",
+  "version": "1.0.0",
+  "description": "WikiToLearn documentation website. To be served with VuePress.",
+  "directories": {
+    "doc": "docs"
+  },
+  "dependencies": {
+    "vuepress": "^1.2.0",
+    "vuepress-plugin-clean-urls": "^1.1.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "export": "vuepress build docs",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sgametrio/wikitolearn-docs.git"
+  },
+  "keywords": [
+    "wikitolearn",
+    "documentation"
+  ],
+  "author": "Demetrio Carrara",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/sgametrio/wikitolearn-docs/issues"
+  },
+  "homepage": "https://github.com/sgametrio/wikitolearn-docs#readme"
+}
