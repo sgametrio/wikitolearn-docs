@@ -9,13 +9,21 @@ These tools are helpful to work with the stack in a "point and click" fashion or
 * docker
 * docker-compose
 * python3
-* python3-argcomplete
+* python3-argcomplete 
 * python3-yaml
+
+::: details More information on how to install them
+* [What is Git?](https://www.atlassian.com/git/tutorials/what-is-git)
+* [Install Docker](https://docs.docker.com/install/)
+* [Install Docker Compose](https://docs.docker.com/compose/install/) 
+
+On Debian-based systems run `apt-get install python3-yaml python3-argcomplete` to install them
+:::
 
 ## Setup source code
 
 ::: warning
-Be sure to use `bash` when issuing commands below, compatibility with other shells is not guaranteed
+Be sure to use `bash` as a shell when issuing commands below, compatibility with other shells is not guaranteed
 :::
 
 To setup the WikiToLearn dev kit you have to:
@@ -34,7 +42,7 @@ If it's the first time you are here, you have to execute the steps below in this
 2. Run
 3. (do it once) Create dummy dataset/Restore a dump
 4. Run (again, to get the services up is something went wrong)
-5. Open [http://localhost:13000] to see the frontend
+5. Open <http://localhost:13000> to see the frontend
 
 ### Build
 To build the services you have to run:
@@ -83,6 +91,6 @@ It allows tools to work with the assumption of the relative location of each rep
 If you want to make changes to the services' source code, inside `repositories/` directory you will find each service repository.
 To see your changes live you have to re-build services and re-run them with the commands seen before.
 
-## LICENSE
+## Software license
 
 See [LICENSE](https://cgit.kde.org/wikitolearn-sdk.git/tree/LICENSE) file.

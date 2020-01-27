@@ -33,7 +33,7 @@ module.exports = {
       [
          "vuepress-plugin-clean-urls",
          {
-            normalSuffix: '',
+            normalSuffix: '/',
             indexSuffix: '/',
          }
       ]

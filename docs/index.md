@@ -11,3 +11,7 @@ If you want to get started as soon as possible, you should jump to [Setup develo
 ## A little background on WikiToLearn community
 
 TODO
+
+## Documentation website license
+
+See [LICENSE](LICENSE) file.
