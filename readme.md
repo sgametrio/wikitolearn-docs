@@ -11,7 +11,7 @@ This documentation is meant to be served by [VuePress](vuepress.vuejs.org).
 To start the live server and start navigating through the pages:
 ``` bash
 npm install  # install dependencies
-npx vuepress dev
+npx vuepress dev docs
 ```
 Enjoy on [localhost:8080](http://localhost:8080)
 
