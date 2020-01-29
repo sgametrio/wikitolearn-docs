@@ -14,4 +14,4 @@ TODO
 
 ## Documentation website license
 
-See [LICENSE](LICENSE) file.
+See [LICENSE](https://github.com/sgametrio/wikitolearn-docs/LICENSE) file.

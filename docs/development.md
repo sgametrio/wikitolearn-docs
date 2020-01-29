@@ -18,6 +18,12 @@ These tools are helpful to work with the stack in a "point and click" fashion or
 * [Install Docker Compose](https://docs.docker.com/compose/install/) 
 
 On Debian-based systems run `apt-get install python3-yaml python3-argcomplete` to install them
+Or with pip (install them globally or use virtual environment):
+``` bash
+pip3 install yaml
+pip3 install argcomplete
+activate-global-python-argcomplete
+```
 :::
 
 ## Setup source code
@@ -32,6 +38,10 @@ To setup the WikiToLearn dev kit you have to:
 2. clone `kde:wikitolearn-sdk` repository
 3. (optional) create the `config/repositories.yml` file (an example is `config/repositories.example.yml`)
 4. create the `config/config.yml` file (an example is `config/config.example.yml`)
+
+   Be sure that `host_ip` value is the same as your docker0 IP address. Otherwise change it accordingly.
+   To check your docker0 IP address run `ip addr show docker0`
+
 5. run `$ source ./setup-env`
 6. run `$ wtl-setup-test` to test if you have fulfilled the requirements and the configurations
 
